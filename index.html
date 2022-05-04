@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="rows">
+            <div id="number-display">
+                <h3 id="result-num">0</h3>
+            </div>
+            <div id="column1">
+                <p id="edge" onclick="setZero()">AC</p>
+                <p onclick="set(7)">7</p>
+                <p onclick="set(4)">4</p>
+                <p onclick="set(1)">1</p>
+                <p onclick="set(0)">0</p>
+            </div>
+            <div id="column2">
+                <p id="edge" onclick="changeSign()">+/-</p>
+                <p onclick="set(8)">8</p>
+                <p onclick="set(5)">5</p>
+                <p onclick="set(2)">2</p>
+                <p onclick="quadratic()">^</p>
+            </div>
+            <div id="column3">
+                <p id="edge" onclick="modulo()">%</p>
+                <p onclick="set(9)">9</p>
+                <p onclick="set(6)">6</p>
+                <p onclick="set(3)">3</p>
+                <p onclick="set('.')">.</p>
+            </div>
+            <div id="column4">
+                <p id="edge" onclick="divide()">/</p>
+                <p id="edge" onclick="multiply()">*</p>
+                <p id="edge" onclick="subtract()">-</p>
+                <p id="edge" onclick="add()">+</p>
+                <p id="edge" onclick="equals()">=</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

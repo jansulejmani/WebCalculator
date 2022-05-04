@@ -1,0 +1,49 @@
+#column1, #column2, #column3, #column4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#container {
+    border-style: solid;
+    display: inline-block;
+    padding: 10px;
+    border-width: 4px;
+}
+
+p {
+    font-family: Arial;
+    font-weight: bold;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+    margin: 3px;
+    margin-top: 10px;
+    border-width: 2px;
+}
+
+#edge {
+    background-color: orange;
+}
+
+p:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#number-display {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 42px;
+    border-style: solid;
+    padding-left: 15px;
+    border-width: 4px;
+}
+
+#result-num {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 42px;
+}
